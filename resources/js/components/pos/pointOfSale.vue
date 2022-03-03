@@ -66,7 +66,7 @@
                 				<div>
                 					<h6 class="my-0">Sub Total</h6>
                 				</div>
-                				<span class="text-muted">${{ sub_total }}</span>
+                				<span class="text-muted">₱{{ sub_total }}</span>
                 			</li>
                 			<li class="list-group-item d-flex justify-content-between lh-condensed">
                 				<div>
@@ -76,7 +76,7 @@
                 			</li>
                 			<li class="list-group-item d-flex justify-content-between bg-light">
                 				<div class="text-success">
-                					<h6 class="my-0">Total (USD)</h6>
+                					<h6 class="my-0">Total (PHP)</h6>
                 				</div>
                 				<span class="text-success">${{ sub_total*vats.vat/100 + sub_total }}</span>
                 			</li>

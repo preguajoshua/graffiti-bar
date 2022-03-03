@@ -52710,13 +52710,11 @@ var render = function() {
                 _c(
                   "div",
                   { staticClass: "h5 mb-0 font-weight-bold text-gray-800" },
-                  [_vm._v("$" + _vm._s(_vm.todaySells))]
-                ),
-                _vm._v(" "),
-                _vm._m(1)
+                  [_vm._v("₱" + _vm._s(_vm.todaySells))]
+                )
               ]),
               _vm._v(" "),
-              _vm._m(2)
+              _vm._m(1)
             ])
           ])
         ])
@@ -52738,13 +52736,11 @@ var render = function() {
                 _c(
                   "div",
                   { staticClass: "h5 mb-0 font-weight-bold text-gray-800" },
-                  [_vm._v("$" + _vm._s(_vm.income))]
-                ),
-                _vm._v(" "),
-                _vm._m(3)
+                  [_vm._v("₱" + _vm._s(_vm.income))]
+                )
               ]),
               _vm._v(" "),
-              _vm._m(4)
+              _vm._m(2)
             ])
           ])
         ])
@@ -52768,13 +52764,11 @@ var render = function() {
                   {
                     staticClass: "h5 mb-0 mr-3 font-weight-bold text-gray-800"
                   },
-                  [_vm._v("$" + _vm._s(_vm.due))]
-                ),
-                _vm._v(" "),
-                _vm._m(5)
+                  [_vm._v("₱" + _vm._s(_vm.due))]
+                )
               ]),
               _vm._v(" "),
-              _vm._m(6)
+              _vm._m(3)
             ])
           ])
         ])
@@ -52796,13 +52790,11 @@ var render = function() {
                 _c(
                   "div",
                   { staticClass: "h5 mb-0 font-weight-bold text-gray-800" },
-                  [_vm._v("$" + _vm._s(_vm.expense))]
-                ),
-                _vm._v(" "),
-                _vm._m(7)
+                  [_vm._v("₱" + _vm._s(_vm.expense))]
+                )
               ]),
               _vm._v(" "),
-              _vm._m(8)
+              _vm._m(4)
             ])
           ])
         ])
@@ -52841,7 +52833,7 @@ var render = function() {
               "table",
               { staticClass: "table align-items-center table-flush" },
               [
-                _vm._m(9),
+                _vm._m(5),
                 _vm._v(" "),
                 _c(
                   "tbody",
@@ -52942,34 +52934,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "mt-2 mb-0 text-muted text-xs" }, [
-      _c("span", { staticClass: "text-success mr-2" }, [
-        _c("i", { staticClass: "fa fa-arrow-up" }),
-        _vm._v(" 3.48%")
-      ]),
-      _vm._v(" "),
-      _c("span", [_vm._v("Since last month")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-auto" }, [
       _c("i", { staticClass: "fas fa-calendar fa-2x text-primary" })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "mt-2 mb-0 text-muted text-xs" }, [
-      _c("span", { staticClass: "text-success mr-2" }, [
-        _c("i", { staticClass: "fas fa-arrow-up" }),
-        _vm._v(" 12%")
-      ]),
-      _vm._v(" "),
-      _c("span", [_vm._v("Since last years")])
     ])
   },
   function() {
@@ -52984,34 +52950,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "mt-2 mb-0 text-muted text-xs" }, [
-      _c("span", { staticClass: "text-success mr-2" }, [
-        _c("i", { staticClass: "fas fa-arrow-up" }),
-        _vm._v(" 20.4%")
-      ]),
-      _vm._v(" "),
-      _c("span", [_vm._v("Since last month")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col-auto" }, [
       _c("i", { staticClass: "fas fa-users fa-2x text-info" })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "mt-2 mb-0 text-muted text-xs" }, [
-      _c("span", { staticClass: "text-danger mr-2" }, [
-        _c("i", { staticClass: "fas fa-arrow-down" }),
-        _vm._v(" 1.10%")
-      ]),
-      _vm._v(" "),
-      _c("span", [_vm._v("Since yesterday")])
     ])
   },
   function() {
@@ -53651,7 +53591,7 @@ var render = function() {
                         _vm._m(4),
                         _vm._v(" "),
                         _c("span", { staticClass: "text-muted" }, [
-                          _vm._v("$" + _vm._s(_vm.sub_total))
+                          _vm._v("₱" + _vm._s(_vm.sub_total))
                         ])
                       ]
                     ),
@@ -54337,7 +54277,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "text-success" }, [
-      _c("h6", { staticClass: "my-0" }, [_vm._v("Total (USD)")])
+      _c("h6", { staticClass: "my-0" }, [_vm._v("Total (PHP)")])
     ])
   },
   function() {
@@ -76234,8 +76174,8 @@ var routes = [//Auth Routes
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\laragon\www\Inventory-MS-Using-Laravel7-Vue-Api\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! E:\laragon\www\Inventory-MS-Using-Laravel7-Vue-Api\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\asus\Documents\Projects\Inventory-Management-System-Laravel\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\asus\Documents\Projects\Inventory-Management-System-Laravel\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

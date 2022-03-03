@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link href="{{ asset('backend/img/logo/logo.png') }}" rel="icon">
-  <title>Inventory Management System</title>
+  <title>Grafitti Inventory Management System</title>
 
 
   <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
@@ -29,7 +29,7 @@
             <div class="sidebar-brand-icon">
               <img src="{{ asset('backend/img/logo/logo2.png') }}">
             </div>
-            <div class="sidebar-brand-text mx-3">IMS</div>
+            <div class="sidebar-brand-text mx-3">GRAFFITI</div>
           </a>
           <hr class="sidebar-divider my-0">
           <li class="nav-item active">
@@ -157,7 +157,7 @@
 </li>
 <hr class="sidebar-divider">
 <div class="sidebar-heading">
-  Developed By Mamun {{ date('Y') }}
+  Developed By <br>Joshua Pregua {{ date('Y') }}
 </div>
 </ul>
 </nav>
